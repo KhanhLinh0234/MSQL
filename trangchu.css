@@ -1,0 +1,135 @@
+/* body{
+    background-color: rgba(193, 8, 8, 0.86);
+    border: 10px solid white;
+    border-top: 0px ;
+    margin: 0px;
+} */
+#lgin {
+    display: inline-block;
+    margin-right: 30px; /* Khoảng cách giữa các phần tử */
+}
+.post{
+    display: inline-block;
+    margin-right: 320px; 
+}
+.menu{
+    display: inline-block;
+    margin-right: 0px; 
+}
+#logo{
+    max-width: 100px;
+    height: auto;
+}
+table{
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: double;
+
+}
+
+/* Nút dropdown */
+.dnbtn {
+    background-color: rgba(193, 8, 8, 0.86);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+
+}
+.dkbtn{
+    background-color: rgba(193, 8, 8, 0.86);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+}
+.trchu{
+    background-color: rgba(193, 8, 8, 0.86);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    min-width: 350px;
+    border: none;
+}
+.lop{
+    background-color: rgba(193, 8, 8, 0.86);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    min-width: 350px;
+    border: none;
+}
+.gs{
+    background-color: rgba(193, 8, 8, 0.86);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    min-width: 350px;
+    border: none;
+}
+.lhe{
+    background-color: rgba(193, 8, 8, 0.86);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    min-width: 350px;
+    border: none;
+}
+/* Container <div> - cần để định vị nội dung dropdown */
+.post {
+    position: relative;
+    display: inline-block;
+}
+.menu{
+    position: relative;
+    display: inline-block;
+}
+
+/* Nội dung dropdown (ẩn mặc định) */
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.cont{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/* Các liên kết trong dropdown */
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.cont a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Thay đổi màu liên kết dropdown khi hover */
+.content a:hover {
+    background-color: #ddd;
+}
+.cont a:hover{
+    background-color: #ddd;
+}
+/* Hiển thị menu dropdown khi hover */
+.post:hover .content {
+    display: block;
+}
+.menu:hover .cont{
+    display: block;
+}
+/* Thay đổi màu nền của nút dropdown khi nội dung dropdown được hiển thị */
+/* .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} */

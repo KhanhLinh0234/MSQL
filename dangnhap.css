@@ -1,0 +1,47 @@
+/* Nút dropdown */
+.dn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Container <div> - cần để định vị nội dung dropdown */
+.dangnhap {
+    position: relative;
+    display: inline-block;
+}
+
+/* Nội dung dropdown (ẩn mặc định) */
+.dangnhap-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Các liên kết trong dropdown */
+.dangnhap-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Thay đổi màu liên kết dropdown khi hover */
+.dangnhap-content a:hover {
+    background-color: #ddd;
+}
+
+/* Hiển thị menu dropdown khi hover */
+.dangnhap:hover .dropdown-content {
+    display: block;
+}
+
+/* Thay đổi màu nền của nút dropdown khi nội dung dropdown được hiển thị */
+.dangnhap:hover .dropbtn {
+    background-color: #3e8e41;
+}
